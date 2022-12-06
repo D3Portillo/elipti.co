@@ -14,7 +14,7 @@ export default function Home() {
       <SeoTags />
       <main className="min-h-screen">
         <nav className="bg-eliptico-green">
-          <LayoutSection className="py-2 flex gap-4 items-center">
+          <LayoutSection className="py-2 sm:flex gap-4 items-center">
             <span>We just shipped an NFT collection for launch.</span>
             <Link
               href="https://opensea.io"
@@ -31,8 +31,8 @@ export default function Home() {
             <Image alt="Eliptico logo" src={asset_logo} />
           </figure>
           <section>
-            <h1 className="text-7xl font-bold">Eliptico.</h1>
-            <p className="text-4xl mt-2 text-zinc-500">
+            <h1 className="text-5xl lg:text-7xl font-bold">Eliptico.</h1>
+            <p className="text-2xl lg:text-4xl mt-2 text-zinc-500">
               The recycling ecosystem that works.
             </p>
           </section>
