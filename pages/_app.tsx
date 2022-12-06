@@ -2,7 +2,7 @@ import "@/styles/globals.css"
 import "@rainbow-me/rainbowkit/styles.css"
 import type { AppProps } from "next/app"
 
-import { Roboto } from "@next/font/google"
+import { Cabin } from "@next/font/google"
 import { WagmiConfig, createClient, chain, configureChains } from "wagmi"
 import { publicProvider } from "wagmi/providers/public"
 import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit"
@@ -24,10 +24,10 @@ const client = createClient({
   connectors,
 })
 
-const fontRoboto = Roboto({ weight: ["400", "500", "700"], subsets: ["latin"] })
+const fontCabin = Cabin()
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={fontRoboto.className}>
+    <main className={fontCabin.className}>
       <Toaster />
       <WagmiConfig client={client}>
         <RainbowKitProvider chains={chains}>
