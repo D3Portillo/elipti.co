@@ -24,7 +24,7 @@ const client = createClient({
   connectors,
 })
 
-const fontCabin = Cabin()
+const fontCabin = Cabin({ subsets: ["latin"] })
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={fontCabin.className}>
