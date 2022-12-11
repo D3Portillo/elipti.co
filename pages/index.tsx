@@ -7,6 +7,7 @@ import LayoutSection from "@/components/LayoutSection"
 import SeoTags from "@/components/SeoTags"
 
 import asset_logo from "@/assets/logo.svg"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
           </section>
         </LayoutSection>
       </main>
+      <Footer />
     </Fragment>
   )
 }
