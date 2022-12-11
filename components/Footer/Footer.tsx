@@ -16,13 +16,25 @@ function Footer() {
           <section className="mr-4">
             <h2 className="text-xl lg:text-3xl font-bold">Follow Us</h2>
             <nav className="flex items-center mt-4">
-              <Link className="p-2 pl-0 text-xl" href="/#">
+              <Link
+                className="p-2 pl-0 text-xl"
+                target="_blank"
+                href="https://twitter.com/go_eliptico"
+              >
                 <FaInstagram />
               </Link>
-              <Link className="p-2 text-xl" href="/#">
+              <Link
+                className="p-2 text-xl"
+                target="_blank"
+                href="https://github.com/D3Portillo/elipti.co"
+              >
                 <FaGithub />
               </Link>
-              <Link className="p-2 text-xl" href="/#">
+              <Link
+                target="_blank"
+                href="https://instagram.com/go_eliptico"
+                className="p-2 text-xl"
+              >
                 <FaTwitter />
               </Link>
             </nav>
@@ -40,7 +52,9 @@ function Footer() {
           </LinkSection>
           <LinkSection title="About">
             <LinkItem>Meet the team</LinkItem>
-            <LinkItem>Contact Us</LinkItem>
+            <LinkItem href="https://t.me/+lxg7rvwZWzAyNzVh" isExternal>
+              Contact Us
+            </LinkItem>
           </LinkSection>
         </div>
         <div className="flex-grow" />
