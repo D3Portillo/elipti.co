@@ -26,14 +26,14 @@ function Footer() {
               <Link
                 className="p-2 text-xl"
                 target="_blank"
-                href="https://github.com/D3Portillo/elipti.co"
+                href="https://instagram.com/go_eliptico"
               >
                 <FaGithub />
               </Link>
               <Link
-                target="_blank"
-                href="https://instagram.com/go_eliptico"
                 className="p-2 text-xl"
+                href="https://github.com/D3Portillo/elipti.co"
+                target="_blank"
               >
                 <FaTwitter />
               </Link>
