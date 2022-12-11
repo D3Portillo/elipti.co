@@ -18,21 +18,21 @@ function Footer() {
             <nav className="flex items-center mt-4">
               <Link
                 className="p-2 pl-0 text-xl"
+                href="https://instagram.com/go_eliptico"
                 target="_blank"
-                href="https://twitter.com/go_eliptico"
               >
                 <FaInstagram />
               </Link>
               <Link
                 className="p-2 text-xl"
+                href="https://github.com/D3Portillo/elipti.co"
                 target="_blank"
-                href="https://instagram.com/go_eliptico"
               >
                 <FaGithub />
               </Link>
               <Link
                 className="p-2 text-xl"
-                href="https://github.com/D3Portillo/elipti.co"
+                href="https://twitter.com/go_eliptico"
                 target="_blank"
               >
                 <FaTwitter />
