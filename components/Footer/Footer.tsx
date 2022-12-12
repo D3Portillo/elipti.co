@@ -14,7 +14,7 @@ function Footer() {
       <div className="flex flex-grow px-8 flex-col">
         <div className="flex flex-wrap flex-col md:flex-row gap-8 pt-8">
           <section className="mr-4">
-            <h2 className="text-xl lg:text-3xl font-bold">Follow Us</h2>
+            <h2 className="text-xl lg:text-3xl font-bold">Follow us</h2>
             <nav className="flex items-center mt-4">
               <Link
                 className="p-2 pl-0 text-xl"
